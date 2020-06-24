@@ -1,6 +1,5 @@
 # Multistage Docker and Virtualenv Demo
 
-Demo app for [my blog post on multistage-dockerfiles and python virtualenvs][blog-post].
 
 ## Getting started
 
@@ -27,9 +26,3 @@ environment. Build that with the following command and then you can compare for 
 ```bash
 $ docker-compose up app-full
 ```
-
-[blog-post]: https://pmac.io/2019/02/multi-stage-dockerfile-and-python-virtualenv/
-[Docker]: https://www.docker.com/products/docker-desktop
-[Docker Compose]: https://docs.docker.com/compose/overview/
-[Responder docs]: https://python-responder.org/en/latest/quickstart.html
-[pipenv]: https://pipenv.readthedocs.io/

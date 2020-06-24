@@ -18,8 +18,8 @@ ENV PATH="/venv/bin:$PATH"
 
 # Install OS package dependencies.
 # Do all of this in one RUN to limit final image size.
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends gettext build-essential && \
+RUN yum update && \
+    yum install -y --no-install-recommends gettext build-essential && \
     rm -rf /var/lib/apt/lists/*
 
 # Setup the virtualenv
